@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+
+    <!-- External css file -->
+    <link rel="stylesheet" href="index.css"/>
+
+    <!-- Font awesome icon kit -->
+    <script src="https://kit.fontawesome.com/bd72881f19.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+
+    <h1>Stop Watch</h1>
+    <div class="rounded-corners">
+        <span class="digit" id="hr">00</span>
+        <span class="text">:</span>
+        <span class="digit" id="min">00</span>
+        <span class="text">:</span>
+        <span class="digit" id="sec">00</span>
+        <span class="text">:</span>
+        <span class="digit" id="count">00</span>
+        
+        </div>
+        <div class="icons">
+        <button class="btn" id="btn1" onclick="start()" style="background-color: green; color: aliceblue;"><i class="fa-regular fa-circle-play"></i>Start</button>
+        <button class="btn" id="btn2" onclick="stop()" style="background-color: rgb(156, 20, 20); color: aliceblue;"><i class="fa-regular fa-circle-pause"></i>Stop</button>
+        <button class="btn" id="btn3" onclick="reset()" style="background-color: rgb(129, 63, 115); color: aliceblue;"><i class="fa-regular fa-circle-stop"></i>Reset</button>
+    </div>
+
+    </div>
+
+    <!-- External js file -->
+    <script src="index.js"></script>
+</body>
+</html>
